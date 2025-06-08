@@ -4,12 +4,11 @@ import { ListadoPeliculasComponent } from './peliculas/listado-peliculas/listado
 import { MenuComponent } from "./compartidos/componentes/menu/menu.component";
 import { RatingComponent } from "./compartidos/componentes/rating/rating.component";
 import { RouterOutlet } from '@angular/router';
-import { HomeComponent } from './home/home.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [ListadoPeliculasComponent, MenuComponent, RatingComponent,  RouterOutlet, HomeComponent],
+  imports: [ListadoPeliculasComponent, MenuComponent, RatingComponent,  RouterOutlet,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

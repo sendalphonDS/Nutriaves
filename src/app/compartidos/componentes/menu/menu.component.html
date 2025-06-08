@@ -1,12 +1,19 @@
 <mat-toolbar>
-    <span>
+
+     <span>
      <a routerLink="" mat-button>
-        <mat-icon>local_movies</mat-icon> Productos
-     </a>
+        <mat-icon>home</mat-icon> home
+    </a>
     </span>
 
     <div>
-        <a mat-button routerLink="peliculas/filtrar">
+        <a mat-button routerLink="productos">
+            <mat-icon>shopping_cart</mat-icon>
+            productos</a>
+    </div>
+
+    <div>
+        <a mat-button routerLink="productos/filtrar">
             <mat-icon>search</mat-icon>
             Buscar Producto</a>
     </div>
@@ -22,4 +29,6 @@
     <div>
         <a mat-button routerLink="peliculas/crear">Crear pedido</a>
     </div>
+
+    
 </mat-toolbar>
