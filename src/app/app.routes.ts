@@ -12,7 +12,7 @@ import { EditarActorComponent } from './actores/editar-actor/editar-actor.compon
 import { EditarCineComponent } from './cines/editar-cine/editar-cine.component';
 import { EditarPeliculaComponent } from './peliculas/editar-pelicula/editar-pelicula.component';
 import { FiltroPeliculasComponent } from './peliculas/filtro-peliculas/filtro-peliculas.component';
-
+import { HomeComponent } from './home/home.component';
 export const routes: Routes = [
     {path:'', component: LandingPageComponent},
     {path: 'generos' , component: IndiceGenerosComponent},
@@ -28,4 +28,5 @@ export const routes: Routes = [
     {path: 'peliculas/editar/:id', component: EditarPeliculaComponent},
     {path: 'peliculas/filtrar', component:FiltroPeliculasComponent},
     {path: '**', redirectTo:''},
+    {path: 'home', component: HomeComponent},
 ];
