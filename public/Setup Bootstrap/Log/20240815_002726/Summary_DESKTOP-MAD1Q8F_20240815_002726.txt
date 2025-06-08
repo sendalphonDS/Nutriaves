@@ -1,0 +1,75 @@
+Overall summary:
+  Final result:                  User canceled
+  Exit code (Decimal):           -2068380094
+  Exit facility code:            1207
+  Exit error code:               1602
+  Exit message:                  User has canceled.
+  Start time:                    2024-08-15 00:27:26
+  End time:                      2024-08-15 00:27:39
+  Requested action:              Uninstall
+
+Machine Properties:
+  Machine name:                  DESKTOP-MAD1Q8F
+  Machine processor count:       8
+  OS version:                    Microsoft Windows 10 Pro (10.0.19045)
+  OS service pack:               
+  OS region:                     México
+  OS language:                   español (México)
+  OS architecture:               x64
+  Process architecture:          64 Bit
+  OS clustered:                  No
+
+Product features discovered:
+  Product              Instance             Instance ID                    Feature                                  Language             Edition              Version         Clustered  Configured
+  SQL Server 2022      MSSQLSERVER01        MSSQL16.MSSQLSERVER01          Database Engine Services                 1033                 Developer Edition    16.0.1000.6     No         Yes       
+  SQL Server 2022      MSSQLSERVER02        MSSQL16.MSSQLSERVER02          Database Engine Services                 1033                 Developer Edition    16.0.1000.6     No         Yes       
+  SQL Server 2022      MSSQLSERVER03        MSSQL16.MSSQLSERVER03          Database Engine Services                 1033                 Developer Edition    16.0.1000.6     No         Yes       
+
+Package properties:
+  Description:                   Microsoft SQL Server 2022 
+  ProductName:                   SQL Server 2022
+  Type:                          RTM
+  Version:                       16
+  SPLevel:                       0
+  Installation edition:          
+
+Notice: Please read Microsoft SQL Server Software License Terms at aka.ms/useterms.
+
+User Input Settings:
+  ACTION:                        Uninstall
+  CONFIGURATIONFILE:             
+  ENU:                           false
+  FEATURES:                      
+  HELP:                          false
+  IACKNOWLEDGEENTCALLIMITS:      false
+  INDICATEPROGRESS:              false
+  INSTANCEID:                    <empty>
+  INSTANCENAME:                  <empty>
+  QUIET:                         false
+  QUIETSIMPLE:                   false
+  SUPPRESSPAIDEDITIONNOTICE:     false
+  SUPPRESSPRIVACYSTATEMENTNOTICE: false
+  UIMODE:                        Normal
+
+  Configuration file:            C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_002726\ConfigurationFile.ini
+
+Rules with failures or warnings:
+
+Rules report file:               C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_002726\SystemConfigurationCheck_Report.htm
+
+Exception summary:
+The following is an exception stack listing the exceptions in outermost to innermost order
+Inner exceptions are being indented
+
+Exception type: Microsoft.SqlServer.Chainer.Infrastructure.CancelException
+    Message: 
+        User has canceled.
+    HResult : 0x84b70642
+        FacilityCode : 1207 (4b7)
+        ErrorCode : 1602 (0642)
+    Stack: 
+        at Microsoft.SqlServer.Configuration.UIExtension.Request.Wait()
+        at Microsoft.SqlServer.Configuration.UIExtension.UserInterfaceProxy.SubmitAndWait(Request request)
+        at Microsoft.SqlServer.Chainer.Infrastructure.Action.Execute(String actionId, TextWriter errorStream)
+        at Microsoft.SqlServer.Setup.Chainer.Workflow.ActionInvocation.<>c__DisplayClass2_1.<ExecuteActionWithRetryHelper>b__0()
+        at Microsoft.SqlServer.Setup.Chainer.Workflow.ActionInvocation.ExecuteActionHelper(ActionWorker workerDelegate)

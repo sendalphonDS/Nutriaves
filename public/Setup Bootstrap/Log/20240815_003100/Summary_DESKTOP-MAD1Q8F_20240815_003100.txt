@@ -1,0 +1,66 @@
+Overall summary:
+  Final result:                  Passed
+  Exit code (Decimal):           0
+  Start time:                    2024-08-15 00:31:00
+  End time:                      2024-08-15 00:33:25
+  Requested action:              Uninstall
+
+Machine Properties:
+  Machine name:                  DESKTOP-MAD1Q8F
+  Machine processor count:       8
+  OS version:                    Microsoft Windows 10 Pro (10.0.19045)
+  OS service pack:               
+  OS region:                     México
+  OS language:                   español (México)
+  OS architecture:               x64
+  Process architecture:          64 Bit
+  OS clustered:                  No
+
+Product features discovered:
+  Product              Instance             Instance ID                    Feature                                  Language             Edition              Version         Clustered  Configured
+  SQL Server 2022      MSSQLSERVER01        MSSQL16.MSSQLSERVER01          Database Engine Services                 1033                 Developer Edition    16.0.1000.6     No         Yes       
+
+Package properties:
+  Description:                   Microsoft SQL Server 2022 
+  ProductName:                   SQL Server 2022
+  Type:                          RTM
+  Version:                       16
+  SPLevel:                       0
+  Installation edition:          Developer
+
+Notice: Please read Microsoft SQL Server Software License Terms at aka.ms/useterms.
+
+User Input Settings:
+  ACTION:                        Uninstall
+  CONFIGURATIONFILE:             C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_003100\ConfigurationFile.ini
+  ENU:                           false
+  FEATURES:                      SQLENGINE
+  HELP:                          false
+  IACKNOWLEDGEENTCALLIMITS:      false
+  INDICATEPROGRESS:              false
+  INSTANCEID:                    <empty>
+  INSTANCENAME:                  MSSQLSERVER01
+  QUIET:                         false
+  QUIETSIMPLE:                   false
+  SUPPRESSPAIDEDITIONNOTICE:     false
+  SUPPRESSPRIVACYSTATEMENTNOTICE: false
+  UIMODE:                        Normal
+
+  Configuration file:            C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_003100\ConfigurationFile.ini
+
+Detailed results:
+  Feature:                       Database Engine Services
+  Status:                        Passed
+
+  Feature:                       SQL Browser
+  Status:                        Passed
+
+  Feature:                       SQL Writer
+  Status:                        Passed
+
+  Feature:                       Setup Support Files
+  Status:                        Passed
+
+Rules with failures or warnings:
+
+Rules report file:               C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_003100\SystemConfigurationCheck_Report.htm

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>System Configuration Check Report for Microsoft SQL Server 2022</title>
+  </head>
+  <body>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 14pt;">
+      <b>Microsoft SQL Server 2022 - System Configuration Check Report</b>
+    </p>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 10pt;">
+      <b>Computer Name(s): </b>DESKTOP-MAD1Q8F <br /><b>Report Date/Time: </b>15/08/2024 12:27 a. m.<br /><b>Saved to Directory: </b><a href="C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_002726\SystemConfigurationCheck_Report.htm">C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_002726\SystemConfigurationCheck_Report.htm</a></p>
+    <table border="1" cellpadding="7" cellspacing="0" STYLE="font-family: Verdana, Arial, sans-serif; font-size: 9pt;">
+      <tr style="background-color:Silver">
+        <th colspan="2" align="center">Rule Name</th>
+        <th align="center">Rule Description</th>
+        <th align="center">Result</th>
+        <th align="center">Message/Corrective Action</th>
+      </tr>
+      <tr style="background-color:Aqua">
+        <td colspan="5">
+          <b>GlobalRules:
+                    SQL Server 2022 Setup configuration checks for rules group 'GlobalRules'</b>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>MediaPathLength</td>
+        <td>Checks whether the SQL Server installation media is too long.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>AclPermissionsFacet</td>
+        <td>Checks if the SQL Server registry keys are consistent.</td>
+        <td>Passed</td>
+        <td>SQL Server registry keys are consistent and can support SQL Server installation or upgrade.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>HasSecurityBackupAndDebugPrivilegesCheck</td>
+        <td>Checks whether the account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and the security log and the right to debug programs.</td>
+        <td>Passed</td>
+        <td>The account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and security log and the right to debug programs.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>RebootRequiredCheck</td>
+        <td>Checks if a pending computer restart is required. A pending restart can cause Setup to fail.</td>
+        <td>Passed</td>
+        <td>The computer does not require a restart.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>SetupCompatibilityCheck</td>
+        <td>Checks whether the current version of SQL Server is compatible with a later installed version.</td>
+        <td>Passed</td>
+        <td>Setup has not detected any incompatibilities.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>ThreadHasAdminPrivilegeCheck</td>
+        <td>Checks whether the account running SQL Server Setup has administrator rights on the computer.</td>
+        <td>Passed</td>
+        <td>The account running SQL Server Setup has administrator rights on the computer.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>WmiServiceStateCheck</td>
+        <td>Checks whether the WMI service is started and running on the computer.</td>
+        <td>Passed</td>
+        <td>The Windows Management Instrumentation (WMI) service is running.</td>
+      </tr>
+    </table>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 10pt;">
+      <b>Community: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=2094703">https://go.microsoft.com/fwlink/?linkid=2094703</a>
+      <br />
+      <b>Setup Help: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=2162129">https://go.microsoft.com/fwlink/?linkid=2162129</a>
+    </p>
+  </body>
+  <xml id="xmlDataIsland">
+    <RunRuleResults>
+  <Header reportDate="15/08/2024" reportTime="12:27 a. m." savedToDirectory="C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240815_002726\SystemConfigurationCheck_Report.htm">
+    <Machines>
+      <Machine value="DESKTOP-MAD1Q8F" />
+    </Machines>
+  </Header>
+  <group groupName="GlobalRules" groupDescription="SQL Server 2022 Setup configuration checks for rules group 'GlobalRules'">
+    <RunRuleResult ruleName="ThreadHasAdminPrivilegeCheck" machineName="DESKTOP-MAD1Q8F" description="Checks whether the account running SQL Server Setup has administrator rights on the computer." result="Passed" message="The account running SQL Server Setup has administrator rights on the computer." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="HasSecurityBackupAndDebugPrivilegesCheck" machineName="DESKTOP-MAD1Q8F" description="Checks whether the account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and the security log and the right to debug programs." result="Passed" message="The account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and security log and the right to debug programs." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="RebootRequiredCheck" machineName="DESKTOP-MAD1Q8F" description="Checks if a pending computer restart is required. A pending restart can cause Setup to fail." result="Passed" message="The computer does not require a restart." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="WmiServiceStateCheck" machineName="DESKTOP-MAD1Q8F" description="Checks whether the WMI service is started and running on the computer." result="Passed" message="The Windows Management Instrumentation (WMI) service is running." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="AclPermissionsFacet" machineName="DESKTOP-MAD1Q8F" description="Checks if the SQL Server registry keys are consistent." result="Passed" message="SQL Server registry keys are consistent and can support SQL Server installation or upgrade." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="MediaPathLength" machineName="DESKTOP-MAD1Q8F" description="Checks whether the SQL Server installation media is too long." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="SetupCompatibilityCheck" machineName="DESKTOP-MAD1Q8F" description="Checks whether the current version of SQL Server is compatible with a later installed version." result="Passed" message="Setup has not detected any incompatibilities." imagePath="resources\ProgressSuccess.ico" />
+  </group>
+  <Resources community="https://go.microsoft.com/fwlink/?linkid=2094703" setupHelpFile="https://go.microsoft.com/fwlink/?linkid=2162129" />
+</RunRuleResults>
+  </xml>
+</html>

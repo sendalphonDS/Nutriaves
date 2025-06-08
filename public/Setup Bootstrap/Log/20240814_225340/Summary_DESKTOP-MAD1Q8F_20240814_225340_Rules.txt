@@ -1,0 +1,59 @@
+Overall summary:
+  Final result:                  Passed
+  Exit code (Decimal):           0
+  Start time:                    2024-08-14 22:53:43
+  End time:                      2024-08-14 22:53:46
+  Requested action:              RunRules
+
+Machine Properties:
+  Machine name:                  DESKTOP-MAD1Q8F
+  Machine processor count:       8
+  OS version:                    Microsoft Windows 10 Pro (10.0.19045)
+  OS service pack:               
+  OS region:                     Perú
+  OS language:                   español (México)
+  OS architecture:               x64
+  Process architecture:          64 Bit
+  OS clustered:                  No
+
+Product features discovered:
+  Product              Instance             Instance ID                    Feature                                  Language             Edition              Version         Clustered  Configured
+  SQL Server 2019      MSSQLSERVER          MSSQL15.MSSQLSERVER            Database Engine Services                 1033                 Enterprise Evaluation Edition 15.0.2000.5     No         Yes       
+  SQL Server 2019                                                          LocalDB                                  1033                 Express Edition      15.0.4153.1     No         Yes       
+  SQL Server 2022      MSSQLSERVER01        MSSQL16.MSSQLSERVER01          Database Engine Services                 1033                 Developer Edition    16.0.1000.6     No         Yes       
+
+Package properties:
+  Description:                   Microsoft SQL Server 2022 
+  ProductName:                   SQL Server 2022
+  Type:                          RTM
+  Version:                       16
+  SPLevel:                       0
+  Installation location:         C:\SQL2022\RulesEng\x64\setup\
+  Installation edition:          Evaluation
+
+Notice: Please read Microsoft SQL Server Software License Terms at aka.ms/useterms.
+
+User Input Settings:
+  ACTION:                        RunRules
+  AZUREBILLEDEDITION:            
+  CONFIGURATIONFILE:             
+  ENU:                           true
+  FEATURES:                      
+  HELP:                          false
+  IACKNOWLEDGEENTCALLIMITS:      false
+  INDICATEPROGRESS:              false
+  INSTANCENAME:                  <empty>
+  PID:                           *****
+  PRODUCTCOVEREDBYSA:            false
+  QUIET:                         true
+  QUIETSIMPLE:                   false
+  RULES:                         PreInstallRules
+  SUPPRESSPAIDEDITIONNOTICE:     false
+  SUPPRESSPRIVACYSTATEMENTNOTICE: false
+  UIMODE:                        Normal
+
+  Configuration file:            C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240814_225340\ConfigurationFile.ini
+
+Rules with failures or warnings:
+
+Rules report file:               C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240814_225340\SystemConfigurationCheck_Report.htm
